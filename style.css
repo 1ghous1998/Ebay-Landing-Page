@@ -1,0 +1,601 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.header1
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.header1 .left
+{
+    display: flex;
+}
+.header1 .left p
+{
+    padding: 14px 15px;
+    font-size: 14px;
+}
+.header1 .right
+{
+    display: flex;
+}
+.header1 .right p
+{
+    padding: 14px 15px;
+    font-size: 14px;
+}
+.header1 .right select
+{
+    border: none;
+    padding: 5px 15px;
+}
+.header1 .right img
+{
+    width: 25px;
+    padding: 5px 15px;
+}
+.header2
+{
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.header2 .first
+{
+    display: flex;
+}
+.header2 .first img
+{
+    width: 45%;
+}
+.header2 .first select
+{
+    color: dimgrey;
+    border: none;
+}
+.header2 .second
+{
+    display: flex;
+}
+.header2 .second input
+{
+    width: 600px;
+    margin: 10px 0;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: none;
+}
+.header2 .second select
+{
+    width: 150px;
+    margin: 10px 0;
+    color: grey;
+    border-left: 1px solid grey;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+.header2 .second button
+{
+    width: 150px;
+    background-color: dodgerblue;
+    color: white;
+    margin: 10px 5px;
+    border: none;
+}
+.header2 .second p
+{
+    padding: 20px 5px;
+    color: grey;
+}
+.header3
+{
+    display: flex;
+    padding: 8px 10px 8px 45px;
+}
+.header3 ul
+{
+    display: flex;
+}
+.header3 ul li
+{
+    display: flex;
+    padding: 0 10px;
+}
+.header3 ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.imgslide img
+{
+    width: 100vw;
+    height: 55vh;
+}
+.card1
+{
+    margin: 30px 60% 25px 10px;
+}
+.card1 h2
+{
+    margin: 0 35% 5% 5%;
+}
+.card1 img
+{
+    margin: 0 40% 5% 5%;
+}
+.card1 h3
+{
+    margin: 0 40% 0 5%;
+}
+.card1 .para
+{
+    margin: 0 40% 0 5%;
+    display: flex;
+}
+.card1 .para #p1
+{
+    text-decoration: line-through;
+}
+.box
+{
+    background-color: orangered;
+    width: 90vw;   
+    margin: 6% 5% 4% 5%;
+    padding: 40px ;
+}
+.box h2
+{
+    color: white;
+}
+.box p
+{
+    color: white;
+}
+.pcheading
+{
+    display: flex;
+    margin: 0 60px 0 5%;
+}
+.pcheading p
+{
+    margin: 7px 60px 0 22px;
+    font-size: large;
+    font-weight: bold;
+}
+#p12
+{
+    color: grey;
+    margin: 0 60px 0 5%;
+}
+.pcimages
+{
+    display: flex;
+    margin: 4%;
+    text-decoration: none;
+}
+.pcimages .pc1
+{
+    padding: 25px 10px;
+}
+.pcimages .pc1 ul
+{
+    font-weight: bolder;
+    padding: 5px 0 0 20px;
+    list-style-type: none;
+}
+.pcimages .pc2
+{
+    padding: 30px 10px 5px 10px;
+}
+.pcimages .pc2 img
+{
+    width: 200px;
+    height: 150px;
+}
+.pcimages .pc2 ul
+{
+    font-weight: bolder;
+    padding: 5px 0 0 10px;
+    list-style-type: none;
+}
+.pcimages .pc3
+{
+    padding: 20px 10px 5px 10px;
+}
+.pcimages .pc3 ul
+{
+    padding: 5px 0 0 10px;
+    list-style-type: none;
+}
+.pcimages .pc3 ul li
+{
+    font-weight: bolder;
+}
+
+.pcimages .pc3 ul #light
+{
+    font-weight: light;
+    color: grey;
+}
+.pcimages .pc3 ul span
+{
+    text-decoration: line-through;
+}
+.pcimages .pc4
+{
+    padding: 30px 10px 5px 10px;
+}
+.pcimages .pc4 img
+{
+    width: 200px;
+    height: 150px;
+}
+.pcimages .pc4 ul
+{
+    list-style-type: none;
+    font-weight: bolder;
+    padding: 5px 0 0 10px;
+}
+.pcimages .pc5
+{
+    height: 230px;
+}
+.pcimages .pc5 img
+{
+    padding: 3px;
+    height: 190px;
+}
+.pcimages .pc5 ul
+{
+    list-style-type: none;
+    font-weight: bolder;
+    padding: 0 0 0 30px;
+}
+.pcimages .pc6
+{
+    padding: 40px 10px 5px 15px;
+}
+.pcimages .pc6 ul
+{
+    list-style-type: none;
+    font-weight: bolder;
+    padding: 25px 0 0 15px;
+}
+.pcimages .pc7
+{
+    padding: 0 5px 0 5px;
+}
+.pcimages .pc7 img
+{
+    height: 200px;
+}
+.pcimages .pc7 ul
+{
+    padding: 0 0 0 20px;
+    list-style-type: none;
+}
+.pcimages .pc7 ul li
+{
+    font-weight: bolder;
+}
+
+.pcimages .pc7 ul #light
+{
+    font-weight: light;
+    color: grey;
+}
+.pcimages .pc7 ul span
+{
+    text-decoration: line-through;
+}
+.parent
+{
+    display: flex;
+    margin: 6%;
+}
+.parent .box1
+{
+    display: flex;
+}
+.parent .box1 .first
+{
+    border: none;
+    background-color: #71e3e2;
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+}
+.parent .box1 .first h1
+{
+    margin: 0 20px 15px 20px;
+}
+.parent .box1 .first p
+{
+    margin: 0 20px 15px 20px;
+}
+.parent .box1 .first button
+{
+    background-color: transparent;
+    width: 140px;
+    height: 50px;
+    margin: 0 20px 15px 20px;
+}
+.parent .box1 .first button:hover
+{
+    background-color: darkslategrey;
+
+}
+.parent .box1 .first button h3:hover
+{
+    color: thistle;
+}
+.parent .pcimages2
+{
+    display: flex;
+    height: 290px;
+}
+.parent .pcimages2 .secondpc1
+{
+    padding: 40px 10px 15px 10px;
+}
+.parent .pcimages2 .secondpc1 ul
+{
+    padding: 25px 0 0 15px;
+    list-style-type: none;
+}
+.parent .pcimages2 .secondpc1 ul li
+{
+    font-weight: bolder;
+}
+.parent .pcimages2 .secondpc1 ul #light
+{
+    font-weight: lighter;
+    color: grey;
+}
+.parent .pcimages2 .secondpc1 ul li span
+{
+    text-decoration: line-through;
+}
+.parent .pcimages2 .secondpc2
+{
+    padding: 40px 10px 15px 10px;
+}
+.parent .pcimages2 .secondpc2 ul
+{
+    font-weight: bolder;
+    padding: 15px 0 0 15px;
+    list-style-type: none;
+}
+.parent .pcimages2 .secondpc3
+{
+    padding: 60px 10px 15px 10px;
+}
+.parent .pcimages2 .secondpc3 ul
+{
+    
+    padding: 15px 0 0 15px;
+    list-style-type: none;
+}
+.parent .pcimages2 .secondpc3 ul li
+{
+    font-weight: bolder;
+}
+.parent .pcimages2 .secondpc3 ul #light
+{
+    font-weight: lighter;
+    color: grey;
+}
+.parent .pcimages2 .secondpc3 ul li span
+{
+    text-decoration: line-through;
+}
+.parent .pcimages2 .secondpc4
+{
+    padding: 20px 10px 15px 10px;
+}
+.parent .pcimages2 .secondpc4 img
+{
+    margin: 20px 10px 5px 10px;
+    height: 150px;
+}
+.parent .pcimages2 .secondpc4 ul
+{
+    
+    padding: 15px 0 0 15px;
+    list-style-type: none;
+}
+.parent .pcimages2 .secondpc4 ul li
+{
+    font-weight: bolder;
+}
+.parent .pcimages2 .secondpc4 ul #light
+{
+    font-weight: lighter;
+    color: grey;
+}
+.parent .pcimages2 .secondpc4 ul li span
+{
+    text-decoration: line-through;
+}
+.parent .pcimages2 .secondpc5
+{
+    padding: 40px 10px 15px 10px;
+}
+.parent .pcimages2 .secondpc5 img
+{
+    margin: -11px;
+}
+
+.parent .pcimages2 .secondpc5 ul
+{
+    padding: 15px 0 0 15px;
+    list-style-type: none;
+}
+.parent .pcimages2 .secondpc5 ul li
+{
+    font-weight: bolder;
+}
+.parent .pcimages2 .secondpc5 ul #light
+{
+    font-weight: lighter;
+    color: grey;
+}
+.parent .pcimages2 .secondpc5 ul li span
+{
+    text-decoration: line-through;
+}
+.parent .pcimages2 .secondpc6
+{
+    padding: 40px 10px 15px 10px;
+}
+.parent .pcimages2 .secondpc6 ul
+{
+    font-weight: bolder;
+    padding: 19px 0 0 15px;
+    list-style-type: none;
+}
+.shoesheading
+{
+    display: flex;
+    padding: 10px 60px 0 5%;
+}
+.shoesheading p
+{
+    margin: 10px 60px 0 22px;
+    font-size: large;
+    font-weight: bold;
+}
+.shoesparent
+{
+    display: flex;
+    padding: 15px 8%;
+}
+.shoesparent .shoes
+{
+    padding: 10px;
+}
+.shoesparent .shoes img
+{
+    width: 150px;
+    height: 120px;
+}
+.shoesparent .shoes p
+{
+    text-align: center;
+}
+.shoesparent .shoes p:hover
+{
+    text-decoration: underline;
+}
+.shoesparent .shoes1 img
+{
+    padding: 8px 0 0 10px;
+    width: 150px;
+    height: 120px;
+}
+.shoesparent .shoes1 p
+{
+    text-align: center;
+}
+.shoesparent .shoes1 p:hover
+{
+    text-decoration: underline;
+}
+.logoheading
+{
+    display: flex;
+    padding: 40px 60px 0 5%;
+}
+.logoheading h1
+{
+    margin-right: 0px;
+}
+
+.logoheading p
+{
+    margin: 7px 0 0 22px;
+    font-size: large;
+    font-weight: bold;
+}
+.logoheading img
+{
+    margin-left: 0px;
+    width: 100px;
+    height: 40px;
+}
+.logohead
+{
+    display: flex;
+    padding: 15px 8%;
+}
+.logohead .logo
+{
+    padding: 10px;
+}
+.logohead .logo img
+{
+    width: 150px;
+    height: 120px;
+}
+.logohead .logo p
+{
+    text-align: center;
+}
+.nextheading
+{
+    display: flex;
+    margin-bottom: 5%;
+}
+.nextheading .box4
+{
+    justify-content: center;
+    width: 25%;
+    background-color: rgb(177, 233, 255);
+    padding: 30px 10px 5px 10px;
+}
+.nextheading .box4 button
+{
+    background-color: rgb(177, 233, 255);
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.nextheading img
+{
+    width: 80%;
+}
+.footer
+{
+    padding-top: 4%;
+}
+.footer table
+{
+    margin-left: 1%;
+}
+.footer table thead tr th
+{
+    font-weight: 900;
+    font-size: large;
+    color: grey;
+}
+.footer table tbody tr td
+{
+    font-size: 12px;
+    padding: 5px 60px 5px 80px;
+    color: grey;
+}
+.footer table tbody tr th
+{
+    font-weight: 900;
+    font-size: large;
+    color: grey;
+}
